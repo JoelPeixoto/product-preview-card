@@ -13,4 +13,4 @@ This challenge is available in [QR Component](https://joelpeixoto.github.io/prod
 ## Author
 
 - Frontend Mentor - [@JoelPeixoto](https://www.frontendmentor.io/profile/JoelPeixoto)
-- Solution URL: [Solution](https://www.frontendmentor.io/solutions/qr-code-component-bgeii7gIjs)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-card-review-Z3xncFACoN)
