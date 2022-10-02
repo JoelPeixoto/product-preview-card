@@ -4,58 +4,58 @@ body {
 }
 
 h1 {
-  font-family: 'Fraunces', serif;
   color: hsl(212, 21%, 14%);
+  font-family: 'Fraunces', serif;
   font-size: 3em;
   line-height: 0.9em;
   margin: 0;
 }
 
 .main-container {
-  display: flex;
-  flex-direction: row;
   background-color: hsl(0, 0%, 100%);
   border-radius: 15px;
-  overflow: hidden;
+  display: flex;
+  flex-direction: row;
   height: 50vh;
-  width: 70vw;
-  top: 25%;
-  left: 15%;
-  translate: (50%, 50%);
+  left: 20%;
+  overflow: hidden;
   position: fixed;
+  top: 25%;
+  translate: (50%, 50%);
+  width: 60vw;
 }
 
 .product-image {
-  flex: 0.5;
-  height: 100%;
   background-image: url("./images/image-product-desktop.jpg");
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+  flex: 0.5;
+  height: 100%;
 }
 
 .product-info {
   display: flex;
-  flex: 0.5;
   flex-direction: column;
-  padding: 5%;
+  flex: 0.5;
   justify-content: space-between;
+  padding: 5%;
 }
 
 .product-info > span {
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.5em;
   color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
   font-size: 0.8em;
+  letter-spacing: 0.5em;
+  text-transform: uppercase;
 }
 
 .product-info > p {
-  font-family: 'Montserrat', sans-serif;
   color: hsl(228, 12%, 48%);
+  font-family: 'Montserrat', sans-serif;
   line-height: 1.7em;
-  margin: 0;
   margin-bottom: 1em;
+  margin: 0;
 }
 
 .price-tags-container {
@@ -71,38 +71,38 @@ h1 {
 }
 
 .old-price {
-  position: absolute;
-  top: 1.2em;
-  left: 70%;
-  text-decoration: line-through;
   color:hsl(228, 12%, 48%);
-  font-weight: 400;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  left: 70%;
+  position: absolute;
+  text-decoration: line-through;
+  top: 1.2em;
 }
 
 .add-cart-button {
   background-color: hsl(158, 36%, 37%);
   border-radius: 5px;
   border: none;
-  height: 3em;
   color:hsl(0, 0%, 100%);
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  height: 3em;
 }
 
 .add-cart-button > img {
-  vertical-align: middle;
   margin-right: 0.5em;
+  vertical-align: middle;
 }
 
 @media (max-width: 750px) {
   .main-container {
     flex-direction: column;
     height: 90vh;
-    width: 90vw;
-    top: 5%;
     left: 5%;
+    top: 5%;
     translate: (50%, 50%);
+    width: 90vw;
   }
 
   .product-image {
